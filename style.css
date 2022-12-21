@@ -1,13 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   display: grid;
-  place-items: center;
+  place-items: baseline;
   height: 100vh;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
   padding: 50px;
   width: 1200px;
@@ -57,10 +62,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.description {
-  margin-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
