@@ -1,23 +1,23 @@
 const categories = [
     {
         id: 1,
-        category: "Toys",
+        category: "Watches",
     },
     {
         id: 2,
-        category: "Sports",
+        category: "Telephones",
     },
     {
         id: 3,
-        category: "Toys",
+        category: "Power Banks",
     },
     {
         id: 4,
-        category: "Grocery",
+        category: "Headphones",
     },
     {
         id: 5,
-        category: "Garden",
+        category: "Audio",
     },
 ];
 
@@ -25,107 +25,107 @@ const products = [
     {
         id: 1,
         category_id: 2,
-        name: "Eggplant - Asian",
+        name: "Apple",
         description:
-            "Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+            "Overprice phones.",
     },
     {
         id: 2,
         category_id: 5,
-        name: "Jagermeister",
+        name: "Sven",
         description:
-            "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+            "MS-2050.",
     },
     {
         id: 3,
         category_id: 2,
-        name: "Wine - Lou Black Shiraz",
+        name: "Google pixel",
         description:
-            "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
+            "Best camera phone.",
     },
 
     {
         id: 4,
         category_id: 3,
-        name: "Beef - Ox Tongue",
+        name: "Lenues",
         description:
-            "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+            "Bla bla for Lenues.",
     },
     {
         id: 5,
         category_id: 3,
-        name: "Beef - Bones, Marrow",
+        name: "Powercase",
         description:
-            "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+            "Bla bla for Powercase.",
     },
     {
         id: 6,
         category_id: 2,
-        name: "Appetizer - Shrimp Puff",
+        name: "Xiaomi",
         description:
-            "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
+            "Low price phones.",
     },
     {
         id: 7,
         category_id: 4,
-        name: "Appetizer - Shrimp Puff",
+        name: "Sony",
         description:
-            "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+            "WH-1000XM3B.",
     },
     {
         id: 8,
         category_id: 1,
-        name: "Ecolab - Ster Bac",
-        description: "Integer ac leo. Pellentesque ultrices mattis odio.",
+        name: "Samsung",
+        description: "Smart on your hand.",
     },
     {
         id: 9,
         category_id: 4,
-        name: "Vegetable - Base",
+        name: "B & O",
         description:
-            "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
+            "Bang & Olufsen Beoplay Portal PC PS Black Anthracite.",
     },
     {
         id: 10,
         category_id: 3,
-        name: "Flour - Corn, Fine",
+        name: "Lenovo",
         description:
-            "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+            "Bla bla for Lenovo.",
     },
     {
         id: 11,
         category_id: 1,
-        name: "Beer - Guiness",
+        name: "Garmin",
         description:
-            "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+            "Survival watches.",
     },
     {
         id: 12,
         category_id: 4,
-        name: "Napkin White",
+        name: "Bose",
         description:
-            "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+            "QuietComfort 45.",
     },
     {
         id: 13,
         category_id: 2,
-        name: "Oil - Truffle, White",
+        name: "One plus",
         description:
-            "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+            "Phones for geeks.",
     },
     {
         id: 14,
         category_id: 5,
-        name: "Wine - Puligny Montrachet A.",
+        name: "JBL",
         description:
-            "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+            "Flip.",
     },
     {
         id: 15,
         category_id: 5,
-        name: "Tomatoes Tear Drop",
+        name: "Philips",
         description:
-            "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+            "TAR-2506.",
     },
 ];
 
