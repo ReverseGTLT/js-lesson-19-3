@@ -1,26 +1,3 @@
-const categories = [
-    {
-        id: 1,
-        category: "Watches",
-    },
-    {
-        id: 2,
-        category: "Telephones",
-    },
-    {
-        id: 3,
-        category: "Power Banks",
-    },
-    {
-        id: 4,
-        category: "Headphones",
-    },
-    {
-        id: 5,
-        category: "Audio",
-    },
-];
-
 const products = [
     {
         id: 1,
@@ -132,6 +109,7 @@ const products = [
 const container = document.querySelector(".container");
 const productsUl = document.querySelector("#products");
 const description = document.querySelector("#description");
+const descriptionClass = document.querySelector(".description");
 const buyButton = document.querySelector("#buy-button");
 
 container.addEventListener("click", (e) => {
@@ -140,10 +118,12 @@ container.addEventListener("click", (e) => {
 
     if (target.closest("#categories")) {
         showProductList(productsByCategory, target);
+        descriptionClass.classList.add('invisible')
     }
 
     if (target.closest("#products")) {
         showProductInfo(target, products);
+        descriptionClass.classList.remove('invisible')
     }
 
     if (target.closest("#buy-button")) {

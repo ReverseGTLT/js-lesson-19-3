@@ -11,7 +11,7 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: inherit;
   align-items: start;
   gap: 1rem;
   padding: 50px;
@@ -62,6 +62,18 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.none {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
